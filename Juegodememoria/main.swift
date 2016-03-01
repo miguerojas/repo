@@ -15,5 +15,15 @@ for numeros  in 1...100 {
         print ( "\(numeros ) Bingo")
         
         i += 1
-}
+    }
+    if numeros % 2 == 0{
+        
+        print ( "\(numeros ) PAR")
+    }
+    else {
+        print ( "\(numeros ) INPAR")
+    }
+    if numeros >= 30 && numeros <= 40{
+        print ( "\(numeros )    viva Swift")
+    }
 }
